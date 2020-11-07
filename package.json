@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./tests/* --exit"
+    "test": "mocha ./tests/test.js --exit",
+    "unit-test": "mocha ./tests/unit-test.js --exit"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "mocha": "^8.2.0",
+    "mocha": "^8.2.1",
     "supertest": "^5.0.0"
   }
 }
